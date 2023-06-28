@@ -38,7 +38,7 @@ export default class Song extends Component {
         this.intervalId ? clearInterval(this.intervalId) : this.intervalId = null;
 
         this.intervalId = setInterval(() => {
-            if (Math.round(this.state.seekBarValue) >= Math.round(currentSong.duration)) {
+            if (Math.round(currentSong.currentTime) >= Math.round(currentSong.duration)) {
 
                 clearInterval(this.intervalId);
                 btnFunction.forwardBtn();
