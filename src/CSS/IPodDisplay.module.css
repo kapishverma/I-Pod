@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&family=Source+Code+Pro:wght@500&display=swap');
+
+.displaySide {
+    width: 260px;
+    height: 230px;
+    background-image: url("../Image/flower.jpg");
+    background-size: contain;
+    margin: 25px 20px 20px 20px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.navBar {
+    height: 16px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: linear-gradient(111.4deg, rgba(7, 7, 9, 1) 6.5%, rgba(27, 24, 113, 1) 93.2%);
+}
+
+.left {
+    font-family: 'Hind', sans-serif;
+    line-height: 14px;
+    font-size: 10px;
+    padding-left: 5px;
+    color: #4facfe;
+}
+
+.right {
+    display: flex;
+}
+
+.right img {
+    height: 14px;
+    margin: 1px 5px;
+    background-size: contain;
+}
+
+.right>div>img {
+    width: 22px;
+    height: 22px;
+    margin-right: 9px;
+    position: relative;
+    top: -5px;
+    background-size: auto;
+}

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&family=Source+Code+Pro:wght@500&display=swap');
+
+.musicPlayer {
+    width: 100%;
+    height: 205px;
+    position: relative;
+    background-color: black;
+    font-family: 'Hind', sans-serif;
+    color: #4facfe;
+    z-index: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+.backgroundImage {
+    position: absolute;
+    width: 100%;
+    height: 205px;
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+.songDetails {
+    height: 165px;
+    padding-top: 2px;
+}
+
+.songImage {
+    height: 140px;
+    width: 100%;
+    padding-left: calc(50% - 62px);
+}
+
+.songImage img {
+    height: 139px;
+    width: 139px;
+    background-size: contain;
+    border: 1px solid #4facfe;
+    border-radius: 5px;
+}
+
+.songName {
+    text-align: center;
+}
+
+
+
+.seekBarAndTime {
+    height: 40px;
+    width: 100%;
+}
+
+.seekBarBox {
+    height: 20px;
+    padding: 0 10px;
+}
+
+.seekBar {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 5px;
+    border-radius: 10px;
+    /* background: seagreen; */
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    top: -4px;
+}
+
+.seekBar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 1px;
+    height: 20px;
+    box-shadow: -400px 0 0 400px cyan;
+}
+
+.seekTime {
+    height: 20px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+
+.currentTime {}
+
+.totalTime {}

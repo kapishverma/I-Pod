@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&family=Source+Code+Pro:wght@500&display=swap');
+
+.container {
+    background-color: white;
+    height: 205px;
+    width: 100%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image {
+    height: 120px;
+    width: 120px;
+    background-size: contain;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.heading {
+    color: #4facfe;
+    font-family: 'Hind', sans-serif;
+}

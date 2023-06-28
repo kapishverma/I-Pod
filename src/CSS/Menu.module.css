@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&family=Source+Code+Pro:wght@500&display=swap');
+
+.body {
+    width: 150px;
+    height: calc(100% - 16px);
+    font-family: 'Hind', sans-serif;
+    background-color: white;
+    color: #4facfe;
+    border-bottom-left-radius: 5px;
+}
+
+.heading {
+    height: 41px;
+    width: 100%;
+    text-align: center;
+    background-image: radial-gradient(circle 993px at 0.5% 50.5%, rgba(137, 171, 245, 0.37) 0%, rgba(245, 247, 252, 1) 100.2%);
+    margin-bottom: 1px;
+}
+
+.options {
+    height: 164px;
+    width: 100%;
+}
+
+.item {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    transition: all 0.3s linear;
+}
+
+.optionName {
+    width: 100px;
+    height: 100%;
+    padding: 9px 0 0 9px;
+    font-size: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.optionIcon {
+    width: 50px;
+    height: 100%;
+    padding: 5px;
+}
+
+.optionIcon img {
+    width: 30px;
+    height: 30px;
+}
+
+.selectedOption {
+    height: 44px;
+    background-image: radial-gradient(circle 993px at 0.5% 50.5%, rgba(137, 171, 245, 0.37) 0%, rgba(245, 247, 252, 1) 100.2%);
+}
+
+.selectedOption>.optionName {
+    padding: 10px 0 0 9px;
+}
+
+.selectedOption>.optionIcon {
+    padding: 7px 5px 5px 3px;
+}
+
+.selectedOption>.optionIcon>img {
+    width: 35px;
+    height: 35px;
+}

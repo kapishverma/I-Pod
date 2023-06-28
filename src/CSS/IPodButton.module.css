@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&family=Source+Code+Pro:wght@500&display=swap');
+
+.buttonSide {
+    width: 100%;
+    height: 235px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Hind', sans-serif;
+    color: #12cfd9;
+}
+
+.buttonOuter {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: white;
+    border: 5px solid silver;
+}
+
+.button {
+    background: transparent;
+    width: 55px;
+    height: 20px;
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 0;
+    position: absolute;
+    color: #12cfd9;
+    border: none;
+    cursor: pointer;
+}
+
+.menuButton {
+    font-size: 20px;
+    width: 66px;
+    top: 20px;
+}
+
+.back {
+    left: 0;
+}
+
+.forward {
+    right: 0;
+}
+
+.playPause {
+    font-size: 25px;
+    bottom: 20px;
+    padding-right: 11px;
+}
+
+.playPause>i {
+    display: inline-block;
+    width: 14px;
+}
+
+.buttonInner {
+    clip-path: circle(50% at 50% 50%);
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 5px solid silver;
+    position: absolute;
+    font-size: 20px;
+    line-height: 80px;
+    display: flex;
+    justify-content: center;
+
+    cursor: pointer;
+    /*//~ transition */
+    background-image: linear-gradient(to right, #16effb 0%, #6ce6ec 51%, #00f2fe 100%);
+    background-size: 300%;
+    background-position: left;
+    transition: 0.5s background-position linear;
+}
+
+.buttonInner:hover {
+    background-position: right;
+}
