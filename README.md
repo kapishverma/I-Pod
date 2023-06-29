@@ -2,7 +2,7 @@
 ##[Hosted Link](https://youtu.be/pMBo_boyZ_0)
  <div
             style="margin: 0px; padding: 0px; background-color: black; color: white; display: flex; flex-direction: column;">
-            <div style="height: 400px; width:266px"><img style="height: 400px; width:266px" src="i-pod/src/Image/3.png" alt=""></div>
+            <div style="height: 400px; width:266px"><img style="height: 400px; width:266px" src="src/Image/3.png" alt=""></div>
             <div>
                 <ol>
                     <li>MENU: previous menu/back button</li>
